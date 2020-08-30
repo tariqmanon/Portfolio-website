@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-top{
+    background:url(../img/header-bg.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+
+.header-left {
+    width: 45%;
+    float: left;
+    padding: 164px 25px;
+}
+
+.header-left h1 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.header-left h4 {
+    font-size: 42px;
+    color: #EC4C7A;
+    margin: 10px 0px;
+}
+
+.header-left p {
+    margin: 14px 0px;
+    line-height: 30px;
+    font-size: 18px;;
+}
+
+.btn-one{
+    background: #EC4C7A;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 2px 6px;
+}
+.header-right {
+    width: 45%;
+    float: left;
+    padding:25px;
+}
+.header-right img {
+    width: 100%;
+}
+
+.biography{
+    background:url(../img/biography-bg.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+
+
+.portfolio-section{
+
+    width: 100%;
+    float: left;
+    padding:25px 0px;
+
+}
+
+.portfolio-section h1{
+
+    text-align: center;
+    font-size: 32px;
+    margin: 10px 0px;
+
+}
+.portfolio-one{
+    width: 31.33%;
+    float: left;
+    margin: 10PX;
+}
+
+.portfolio-one img{
+    width: 100%;
+}
+
+.testimonial {
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+
+.testimonial-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.testimonial-content h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.testimonial-content h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.testimonial-content h6 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.contact {
+    background: #EC4C76;
+    margin: 35px;
+    padding: 30px;
+    border-radius: 4px 8px;
+}
+
+.contact h3 {
+    color: #fff;
+}
+.contact h5 {
+    color: #fff;
+    font-size: 22px;
+    margin: 12px 0px;
+}
